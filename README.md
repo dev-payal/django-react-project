@@ -17,9 +17,9 @@ DATA_API=https://countriesnow.space/api/v0.1/countries/capital`
 
 6. Create your own secret key using-
 
-  1. #from django.core.management.utils import get_random_secret_key
-  2. #print(get_random_secret_key())
-  3. Now, copy the key and paste it in SECREAT_KEY
+`#from django.core.management.utils import get_random_secret_key`
+`#print(get_random_secret_key())`
+`Now, copy the key and paste it in SECREAT_KEY`
 
 
 7. Make migrations, run-
