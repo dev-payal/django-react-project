@@ -15,10 +15,10 @@ And move into it with `cd <repository-name>`
 DEBUG=True
 DATA_API=https://countriesnow.space/api/v0.1/countries/capital`
 
-Create your own secret key using-
+  Create your own secret key using-
 
-1. #from django.core.management.utils import get_random_secret_key
-2. #print(get_random_secret_key())
+  1. #from django.core.management.utils import get_random_secret_key
+  2. #print(get_random_secret_key())
 
 
 5. Make migrations, run-
