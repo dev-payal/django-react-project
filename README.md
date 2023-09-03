@@ -1,4 +1,4 @@
-<h2>Guess the Capital</h2>
+# Guess the Capital
 
 1. Start with creating a virtual environment, run-
 `python -m venv <env name>`
@@ -16,7 +16,7 @@ DATA_API=https://countriesnow.space/api/v0.1/countries/capital`
 
 Create your own secret key using-
 #from django.core.management.utils import get_random_secret_key
-# print(get_random_secret_key())
+#print(get_random_secret_key())
 
 
 5. Make migrations, run-
