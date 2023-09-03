@@ -4,17 +4,19 @@
 `python -m venv <env name>`
 and activate it.
 
-2. Clone this repository in the folder where your venv is located. And move into it with `cd <repository-name>`
+2. Clone this repository in the folder where your venv is located.
+And move into it with `cd <repository-name>`
 
-3. Install rhe dependencies-
+4. Install rhe dependencies-
 `pip install -r requirements.txt`
 
-4. Create an .env file in the 'capital' folder and add these parameters-
+5. Create an .env file in the 'capital' folder and add these parameters-
 `SECRET_KEY=<Your secret key>
 DEBUG=True
 DATA_API=https://countriesnow.space/api/v0.1/countries/capital`
 
 Create your own secret key using-
+
 #from django.core.management.utils import get_random_secret_key
 #print(get_random_secret_key())
 
