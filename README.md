@@ -27,7 +27,9 @@ DATA_API=https://countriesnow.space/api/v0.1/countries/capital`
 7. Make migrations, run-
 `python manage.py makemigrations`
 `python manage.py migrate`
+Check you migrations folder to check whether the table got created or not. If not, run these commands-
+`python manage.py makemigrations backend` and `python manage.py migrate`.
 
-8. Run `python manage.py populate_coutries_table` in the terminal to populate the db.
+9. Run `python manage.py populate_coutries_table` in the terminal to populate the db.
 
-9. Now, run `python manage.py runserver`, your api is up and running on the local server.
+10. Now, run `python manage.py runserver`, your api is up and running on the local server.
