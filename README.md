@@ -21,6 +21,8 @@ DATA_API=https://countriesnow.space/api/v0.1/countries/capital`
 `#print(get_random_secret_key())`
 `Now, copy the key and paste it in SECREAT_KEY`
 
+7. Now, move to the frontend folder with `cd frontend` and run these commands-
+`npm install` and `npm run build`
 
 7. Make migrations, run-
 `python manage.py makemigrations`
