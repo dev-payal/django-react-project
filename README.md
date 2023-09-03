@@ -19,9 +19,9 @@ DEBUG=True
 DATA_API=https://countriesnow.space/api/v0.1/countries/capital`
 
 4. **Generate Your Own Secret Key**: To generate your own secret key, you can use the following code. Replace the SECRET_KEY value in your .env file with the generated key.
-# Uncomment these lines and run them in a Python environment to generate a secret key
-# from django.core.management.utils import get_random_secret_key
-# print(get_random_secret_key())
+#Uncomment these lines and run them in a Python environment to generate a secret key
+#from django.core.management.utils import get_random_secret_key
+#print(get_random_secret_key())
 
 5. **Apply Migrations**: Create database tables by making migrations and then applying them.
 `python manage.py makemigrations
