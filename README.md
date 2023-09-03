@@ -15,16 +15,17 @@ And move into it with `cd <repository-name>`
 DEBUG=True
 DATA_API=https://countriesnow.space/api/v0.1/countries/capital`
 
-  Create your own secret key using-
+6. Create your own secret key using-
 
   1. #from django.core.management.utils import get_random_secret_key
   2. #print(get_random_secret_key())
+  3. Now, copy the key and paste it in SECREAT_KEY
 
 
-5. Make migrations, run-
+7. Make migrations, run-
 `python manage.py makemigrations`
 `python manage.py migrate`
 
-6. Run `python manage.py populate_coutries_table` in the terminal to populate the db.
+8. Run `python manage.py populate_coutries_table` in the terminal to populate the db.
 
-7. Now, run `python manage.py runserver`, your api is up and running on the local server.
+9. Now, run `python manage.py runserver`, your api is up and running on the local server.
